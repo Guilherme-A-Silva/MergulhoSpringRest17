@@ -17,14 +17,16 @@ Entidades do Sistema
 
 Diagrama de classes
 ---
-<img src="docs/diagrama-de-classes.png"/>
+
+![diagrama-de-classes](https://user-images.githubusercontent.com/68473916/226342515-1fffeea2-0fae-4ad7-8f2d-e6af9c6af9ff.png)
+
 
 API Rest Algalog
 ---
 
 Versao: v0.1.0
 
-## MÈtodos GET ##
+## M√©todos GET ##
 
 1. Listar Clientes
 2. Listar Entregas
@@ -32,7 +34,7 @@ Versao: v0.1.0
 4. Listar Entrega por ID
 5. Listar Ocorrencias
 
-## MÈtodos POST ##
+## M√©todos POST ##
 
 1. Cadastrar Cliente
 2. Cadastar Entrega
@@ -40,17 +42,17 @@ Versao: v0.1.0
 4. Atualizar Cliente
 
 
-## MÈtodo PUT ##
+## M√©todo PUT ##
 1. Atualizar Cliente
 2. Finalizar Entrega
 
-## MÈtodo DELETE ##
+## M√©todo DELETE ##
 1. Deletar Cliente
 
 
 ## Listar Clientes ## 
 
-MÈtodo: **GET**
+M√©todo: **GET**
 http://localhost:8080/clientes
 
 ### Responses ### 
@@ -84,13 +86,13 @@ Exemplo de resposta do Servidor
 
 ## Listar Cliente por ID ##
 
-MÈtodo: **GET**
+M√©todo: **GET**
 
 http://localhost:8080/clientes/{clienteId}
 
 
-### Par‚metros ###
-Par‚metro| tipo
+### Par√¢metros ###
+Par√¢metro| tipo
 ---------|-------
 clienteId| numeral
 
@@ -111,7 +113,7 @@ Exemplo de Resposta do servidor
 
 ## Listar Entregas ##
 
-MÈtodo: **GET**
+M√©todo: **GET**
 http://localhost:8080/entregas
 
 ### Responses ###
@@ -145,7 +147,7 @@ Exemplo de resposta do Servidor:
 
 ## Listar Entrega por ID ##
 
-MÈtodo: **GET**
+M√©todo: **GET**
 
 ### Responses ###
 
